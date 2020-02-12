@@ -1,12 +1,14 @@
 import java.util.*;
 
-public class BookCollection {
+public class BookCollection 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         ArrayList<Book> al = new ArrayList<Book>();
-        al.add(new Book("ced", "wer", "lmn", 12345.00));
-        al.add(new Book("qqq", "aaa", "mmm", 22222.10));
-        al.add(new Book("abc", "xyz", "pqr", 123.566));
+        al.add(new Book("ced", "wer", "lmn", 1000.00));
+        al.add(new Book("qqq", "aaa", "mmm", 5000.00));
+        al.add(new Book("abc", "xyz", "pqr", 5000.00));
         ArrayList<Book> al1 = new ArrayList<Book>(al);
         Collections.sort(al1);
         System.out.println("***********Sorted Collection**********");
